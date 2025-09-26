@@ -1,29 +1,12 @@
 "use client";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { db } from "../../firebaseConfig";
 import { ref, onValue } from "firebase/database";
 import { useRouter } from "next/navigation";
 import { remove } from "firebase/database";
 
-export default function RoomDetails() {
-  // Leave room handler
-  const handleLeaveRoom = async () => {
-    if (!roomKey || !userName) {
-      router.push("/");
-      return;
-    }
-    // Remove user from Firebase
-    const usersRef = ref(db, `rooms/${roomKey}/users`);
-    onValue(usersRef, async (snapshot) => {
-      const data = snapshot.val();
-      const userKey = getUserKey(data, userName);
-      if (userKey) {
-        await remove(ref(db, `rooms/${roomKey}/users/${userKey}`));
-      }
-      router.push("/");
-    }, { onlyOnce: true });
-  };
+function RoomDetailsContent() {
   const searchParams = useSearchParams();
   const roomKey = searchParams.get("roomKey");
   const userName = searchParams.get("userName");
@@ -49,6 +32,8 @@ export default function RoomDetails() {
       }
     });
     return () => unsubscribe();
+  }, [roomKey]);
+
   // Leave room handler
   const handleLeaveRoom = async () => {
     if (!roomKey || !userName) {
@@ -66,8 +51,6 @@ export default function RoomDetails() {
       router.push("/");
     }, { onlyOnce: true });
   };
-  }, [roomKey]);
-
 
   return (
     <div className="flex flex-col min-h-screen p-8">
@@ -105,5 +88,13 @@ export default function RoomDetails() {
         </aside>
       </div>
     </div>
+  );
+}
+
+export default function RoomDetails() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <RoomDetailsContent />
+    </Suspense>
   );
 }
