@@ -1,5 +1,6 @@
+import { BACKEND_URL } from "../config";
 export async function createRoom(secretKey: string): Promise<{ roomKey: string }> {
-  const res = await fetch("http://localhost:4000/api/create-room", {
+  const res = await fetch(`${BACKEND_URL}/api/create-room`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
