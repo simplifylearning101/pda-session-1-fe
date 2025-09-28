@@ -23,7 +23,7 @@ const SUB_MENU: Record<MainMenuKey, SubMenuItem[]> = {
   ],
   quiz: [
     { label: "Admin - Create Room", href: "/create-room" },
-    { label: "Manage Rooms", href: "/manage-rooms" }
+    { label: "Manage Rooms", href: "/manage-rooms" },
     { label: "Enter Room", href: "/attempt-quiz" },
   ],
   prompt_engg: [
