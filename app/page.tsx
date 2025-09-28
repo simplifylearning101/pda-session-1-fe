@@ -81,18 +81,18 @@ export default function Home() {
   <div className="flex flex-1 flex-col sm:flex-row">
         {/* Left: Session Name + Main Menu */}
   <div className="w-full sm:w-1/2 flex flex-col items-center justify-center bg-gray-800 p-4 sm:p-8 gap-6 sm:gap-8 border-b sm:border-b-0 sm:border-r border-gray-700">
-          {/* Main Menu Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 w-full max-w-2xl">
-            {MAIN_MENU.map(menu => (
-              <button
-                key={menu.key}
-                onClick={() => setSelectedMenu(menu.key)}
-                className={`rounded-xl shadow-lg px-8 py-8 text-2xl font-semibold transition-all duration-200 border-2 ${selectedMenu === menu.key ? "border-blue-400 bg-blue-900 text-blue-100" : "border-gray-700 bg-gray-900 text-gray-200 hover:bg-gray-800"}`}
-              >
-                {menu.label}
-              </button>
-            ))}
-          </div>
+    {/* Main Menu Grid */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 w-full max-w-2xl h-[40vh] sm:h-auto overflow-y-auto">
+      {MAIN_MENU.map(menu => (
+        <button
+          key={menu.key}
+          onClick={() => setSelectedMenu(menu.key)}
+          className={`rounded-xl shadow-lg px-8 py-8 text-2xl font-semibold transition-all duration-200 border-2 ${selectedMenu === menu.key ? "border-blue-400 bg-blue-900 text-blue-100" : "border-gray-700 bg-gray-900 text-gray-200 hover:bg-gray-800"}`}
+        >
+          {menu.label}
+        </button>
+      ))}
+    </div>
         </div>
         {/* Right: Sub Menu */}
   <div className="w-full sm:w-1/2 flex flex-col items-center justify-center bg-gray-900 p-4 sm:p-8 gap-6 sm:gap-8">
