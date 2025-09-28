@@ -71,9 +71,18 @@ function RoomDetailsContent() {
           )}
         </div>
       </div>
-      {/* Main content: Placeholder for user list */}
+      {/* Main content: Create Quiz Card and user list */}
       <div className="flex flex-row flex-1">
-        <div className="flex-1">{/* Placeholder for main content */}</div>
+        <div className="flex-1 flex items-center justify-center">
+          {/* Large Create Quiz Card with darker grey background */}
+          <div className="bg-gray-300 shadow-2xl rounded-2xl p-10 flex flex-col items-center justify-center w-full max-w-xl min-h-[300px] border-2 border-blue-400">
+            <h2 className="text-2xl font-bold mb-4 text-blue-700">Create a Quiz</h2>
+            <p className="mb-6 text-gray-600 text-center">Start a new quiz for this room. You can add questions and customize your quiz.</p>
+            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-200">
+              Create Quiz
+            </button>
+          </div>
+        </div>
         <aside className="w-72 border-l pl-6 flex flex-col">
           <h2 className="text-xl font-semibold mb-2">({users.length}) Users Joined</h2>
           <div className="overflow-y-auto" style={{ maxHeight: "60vh" }}>

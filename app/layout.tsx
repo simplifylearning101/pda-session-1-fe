@@ -25,9 +25,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <header style={{textAlign: 'center', padding: '1rem', fontSize: '1.2rem', fontWeight: 'bold', background: '#f5f5f5', color: '#333'}}>
-          PDA Session Quiz App
-        </header>
         {children}
       </body>
     </html>
