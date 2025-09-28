@@ -54,9 +54,17 @@ function RoomDetailsContent() {
 
   return (
     <div className="flex flex-col min-h-screen p-8">
-      {/* Top section: Room Key and Leave Room Button */}
+      {/* Top section: Main Menu link, Room Key and Leave Room Button */}
       <div className="flex flex-row items-center justify-between mb-8">
-        <h1 className="text-3xl font-bold">Room Details</h1>
+        <div className="flex items-center gap-4">
+          <a
+            href="/"
+            className="px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200"
+          >
+            ← Main Menu
+          </a>
+          <h1 className="text-2xl sm:text-3xl font-bold text-blue-700">Room Details</h1>
+        </div>
         <div className="flex items-center gap-4">
           <div className="p-4 border rounded bg-green-50 text-green-800 text-center min-w-[180px]">
             <span className="font-bold">Room Key:</span> {roomKey}

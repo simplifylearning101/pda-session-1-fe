@@ -29,7 +29,20 @@ export default function EnterRoom() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
-      <h1 className="text-3xl font-bold mb-6">Enter Room</h1>
+      <div className="w-full flex items-center mb-6">
+        <div className="flex-1 flex justify-start">
+          <a
+            href="/"
+            className="mr-4 px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200"
+          >
+            ← Main Menu
+          </a>
+        </div>
+        <div className="flex-1 flex justify-center">
+          <h1 className="text-2xl sm:text-3xl font-bold text-blue-300">Enter Room</h1>
+        </div>
+        <div className="flex-1"></div>
+      </div>
       <div className="flex flex-col gap-4 w-full max-w-sm">
         <input
           type="text"

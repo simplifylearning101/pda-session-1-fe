@@ -31,7 +31,7 @@ export default function AboutSession() {
           <li>Agent-to-Agent Protocols</li>
         </ul>
         <p className="mt-4">
-           A free 10 weeks course on same topic is also available <a href="https://github.com/simplifylearning101/LLM_beginner_course">here</a>
+           A free 10 weeks course on same topic is also available <a href="https://github.com/simplifylearning101/LLM_beginner_course" target="_blank">here</a>
         </p>
       </div>
     </div>
