@@ -53,50 +53,55 @@ function RoomDetailsContent() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen p-8">
+  <div className="flex flex-col min-h-screen p-4 sm:p-8 bg-gray-900 text-gray-100">
       {/* Top section: Main Menu link, Room Key and Leave Room Button */}
-      <div className="flex flex-row items-center justify-between mb-8">
-        <div className="flex items-center gap-4">
-          <a
-            href="/"
-            className="px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200"
-          >
-            ← Main Menu
-          </a>
-          <h1 className="text-2xl sm:text-3xl font-bold text-blue-700">Room Details</h1>
-        </div>
-        <div className="flex items-center gap-4">
-          <div className="p-4 border rounded bg-green-50 text-green-800 text-center min-w-[180px]">
-            <span className="font-bold">Room Key:</span> {roomKey}
-          </div>
-          {userName && (
-            <button
-              onClick={handleLeaveRoom}
-              className="bg-red-600 text-white px-4 py-2 rounded font-semibold hover:bg-red-700"
+  <div className="flex flex-col sm:flex-row items-center justify-between mb-6 sm:mb-8 gap-4">
+        <div className="flex flex-col sm:flex-row items-center gap-4 w-full">
+          <div className="flex items-center gap-4 flex-1">
+            <a
+              href="/"
+              className="px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200"
             >
-              Leave Room
-            </button>
-          )}
+              ← Main Menu
+            </a>
+            <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-700">Room Details</h1>
+          </div>
+          <div className="flex items-center gap-4 flex-1 justify-end">
+            <div className="p-2 sm:p-4 border rounded bg-green-50 text-green-800 text-center min-w-[120px] sm:min-w-[180px]">
+              <span className="font-bold">Room Key:</span> {roomKey}
+            </div>
+            {userName && (
+              <button
+                onClick={handleLeaveRoom}
+                className="bg-red-600 text-white px-3 py-2 sm:px-4 sm:py-2 rounded font-semibold hover:bg-red-700"
+              >
+                Leave Room
+              </button>
+            )}
+          </div>
         </div>
       </div>
       {/* Main content: Create Quiz Card and user list */}
-      <div className="flex flex-row flex-1">
-        <div className="flex-1 flex items-center justify-center">
+      <div className="flex flex-col sm:flex-row flex-1 gap-6">
+        <div className="w-full sm:flex-1 flex items-center justify-center mb-6 sm:mb-0">
           {/* Large Create Quiz Card with darker grey background */}
-          <div className="bg-gray-300 shadow-2xl rounded-2xl p-10 flex flex-col items-center justify-center w-full max-w-xl min-h-[300px] border-2 border-blue-400">
-            <h2 className="text-2xl font-bold mb-4 text-blue-700">Create a Quiz</h2>
-            <p className="mb-6 text-gray-600 text-center">Start a new quiz for this room. You can add questions and customize your quiz.</p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition-all duration-200">
+          <div className="bg-gray-800 shadow-2xl rounded-2xl p-6 sm:p-10 flex flex-col items-center justify-center w-full max-w-xl min-h-[200px] sm:min-h-[300px] border-2 border-blue-400">
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-blue-300">Create a Quiz</h2>
+            <p className="mb-4 sm:mb-6 text-gray-300 text-center text-base sm:text-lg">Start a new quiz for this room. You can add questions and customize your quiz.</p>
+            <a
+              href={`/create-quiz?roomKey=${roomKey}`}
+              className="bg-blue-600 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold text-base sm:text-lg hover:bg-blue-700 transition-all duration-200 text-center"
+            >
               Create Quiz
-            </button>
+            </a>
           </div>
         </div>
-        <aside className="w-72 border-l pl-6 flex flex-col">
-          <h2 className="text-xl font-semibold mb-2">({users.length}) Users Joined</h2>
-          <div className="overflow-y-auto" style={{ maxHeight: "60vh" }}>
-            <div className="grid grid-cols-2 gap-3">
+        <aside className="w-full sm:w-72 border-t sm:border-t-0 sm:border-l pt-4 sm:pl-6 flex flex-col">
+          <h2 className="text-lg sm:text-xl font-semibold mb-2 text-blue-300">({users.length}) Users Joined</h2>
+          <div className="overflow-y-auto" style={{ maxHeight: "40vh" }}>
+            <div className="grid grid-cols-2 gap-2 sm:gap-3">
               {users.map((user, idx) => (
-                <div key={idx} className="p-3 bg-gray-100 rounded shadow-sm text-gray-800 font-medium text-center">
+                <div key={idx} className="p-2 sm:p-3 bg-gray-700 rounded shadow-sm text-gray-100 font-medium text-center text-sm sm:text-base">
                   {user.name}
                 </div>
               ))}

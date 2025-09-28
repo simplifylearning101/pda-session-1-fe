@@ -89,16 +89,29 @@ export default function ManageRooms() {
             {rooms.map(room => (
               <div key={room.key} className="bg-gray-800 rounded-xl shadow-lg p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <div>
+                  <div className="flex items-center gap-4">
                     <span className="font-bold text-blue-400">Room Key:</span> {room.key}
+                    <a
+                      href={`/room-details?roomKey=${room.key}`}
+                      className="px-2 py-1 rounded bg-blue-600 text-white text-sm font-semibold shadow hover:bg-blue-700 transition-all duration-200 flex items-center"
+                      title="View Details"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.477 0 8.268 2.943 9.542 7-1.274 4.057-5.065 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                      </svg>
+                    </a>
                   </div>
                   {room.admin && (
                     <button
                       onClick={() => handleDeleteRoom(room.key)}
                       disabled={deleting === room.key}
-                      className="bg-red-600 text-white px-4 py-2 rounded font-semibold hover:bg-red-700 disabled:opacity-50"
+                      className="bg-red-600 text-white px-2 py-2 rounded font-semibold hover:bg-red-700 disabled:opacity-50 flex items-center"
+                      title="Delete Room"
                     >
-                      Delete Room
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
                     </button>
                   )}
                 </div>
