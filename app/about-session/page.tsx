@@ -13,7 +13,7 @@ export default function AboutSession() {
           </a>
         </div>
         <div className="flex-1 flex justify-center">
-          <h1 className="text-4xl font-bold text-blue-300">About This Session</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">About This Session</h1>
         </div>
         <div className="flex-1"></div>
       </div>
