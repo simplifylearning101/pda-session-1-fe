@@ -43,7 +43,7 @@ export default function Home() {
               <a
                 key={menu.key}
                 href={menu.href ?? `/menu/${menu.key}`}
-                className="rounded-xl shadow-lg px-4 py-4 text-xl font-semibold transition-all duration-200 border-2 border-gray-700 bg-gray-900 text-gray-200 hover:bg-gray-800 flex items-center justify-center text-center"
+                className="rounded-xl shadow-lg px-8 py-8 text-xl font-semibold transition-all duration-200 border-2 border-gray-700 bg-gray-900 text-gray-200 hover:bg-gray-800 flex items-center justify-center text-center"
               >
                 {menu.label}
               </a>
