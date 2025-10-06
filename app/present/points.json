@@ -1,0 +1,14 @@
+{
+  "points": [
+    { "id": 1, "heading": "Automation of Code Generation", "description": "AI tools like GitHub Copilot and OpenAI Codex are enabling developers to generate code snippets automatically, reducing the time spent on boilerplate coding and allowing focus on higher-level architecture." },
+    { "id": 2, "heading": "Enhanced Bug Detection and Debugging", "description": "AI systems analyze code for errors, vulnerabilities, and bugs that might be overlooked by humans, significantly improving software quality and security during development. Practical Example: Tools like DeepCode perform AI-based code reviews to identify security issues in real-time, as seen in teams using it to catch performance problems in open-source repositories before deployment" },
+    { "id": 3, "heading": "Streamlining DevOps Processes", "description": "AI optimizes continuous integration, deployment, and monitoring in DevOps, making the entire software lifecycle more efficient and less prone to manual errors. Practical Example: Kubeflow is used by DevOps teams to manage machine learning workflows on Kubernetes, automating scaling and deployment for AI models in production environments" },
+    { "id": 4, "heading": "Large Language Models (LLMs)", "description": "What LLMs are and typical use-cases in industry." },
+    { "id": 5, "heading": "Prompt Engineering", "description": "Good prompt patterns and how prompts steer model behavior." },
+    { "id": 6, "heading": "Ethics & Bias", "description": "Discuss model bias, fairness, and responsible AI practices." },
+    { "id": 7, "heading": "Data & Privacy", "description": "Data sources, consent, and privacy considerations when using AI." },
+    { "id": 8, "heading": "AI in Developer Workflows", "description": "How AI tools change coding, testing, and deployment." },
+    { "id": 9, "heading": "Limitations of AI", "description": "Model hallucinations, reliability, and when not to use AI." },
+    { "id": 10, "heading": "Future Opportunities", "description": "Where AI is headed and opportunities for students to learn and contribute." }
+  ]
+}

@@ -23,21 +23,22 @@ export default function AboutSession() {
           <br />This session is designed to introduce you to the "possible" roadmap for your future role. 
         </p>
         <ul className="list-disc pl-6 mt-4">
-          <li>Session Overview - 10mins</li>
-          <li>Present state of affrairs in software engineering - 15mins</li>
-          <li>Possible near future (1-3 years) of software engineering - 30mins</li>
+          <li>Session Overview</li>
+          <li>Warm up Quiz</li>
+          <li>How software engineering is evolving</li>
+          <li>What could be the future state of software engineering</li>
         </ul>
         <ul className="list-disc pl-6 mt-4">  
-          <li>How can we be better prepared for future - 15mins</li>
-          <li>Prompt Engineering and why is it important - 15mins</li>
-          <li>Leveraging copilot / AI assisted development - 15mins</li>
-          <li>A demo of copilot - 15mins</li>
+          <li>How can we be better prepared for future</li>
+          <li>LLMs and Prompt Engineering</li>
+          <li>Leveraging copilot / AI assisted development</li>
+          <li>Build a full stack app using copilot</li>
         </ul>
         <ul className="list-disc pl-6 mt-4">   
-          <li>Introduction to AI Agents - 15mins</li>
-          <li>Understanding Agent Frameworks - 15mins</li>
-          <li>Model Context Protocol - 15mins</li>
-          <li>Agent-to-Agent Protocols - 15mins</li>
+          <li>Introduction to AI Agents & Agentic framework</li>
+          <li>Model Context Protocol</li>
+          <li>Agent-to-Agent Protocols</li>
+          <li>AI Automation using n8n</li>
         </ul>
         <p className="mt-4">
           A free 10 weeks course on Applied LLM is also available <a href="https://github.com/simplifylearning101/LLM_beginner_course" target="_blank">here</a>

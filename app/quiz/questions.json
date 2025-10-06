@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "What does AI stand for?",
+      "options": [
+        "Artificial Intelligence",
+        "Automated Internet",
+        "Applied Informatics",
+        "Algorithmic Integration"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What is a common use of AI tools for developers?",
+      "options": [
+        "Code completion and suggestions",
+        "Database backups",
+        "Manual testing only",
+        "Deploy pipelines"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "What does LLM stand for?",
+      "options": [
+        "Large Language Model",
+        "Limited Learning Machine",
+        "Lightweight Learning Model",
+        "Layered Language Module"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Which of these is an example of an LLM-powered assistant?",
+      "options": [
+        "ChatGPT",
+        "Git",
+        "Docker",
+        "NPM"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "In supervised learning, models are trained using:",
+      "options": [
+        "Labeled examples",
+        "Unlabeled data only",
+        "No data",
+        "Random noise"
+      ]
+    }
+  ]
+}

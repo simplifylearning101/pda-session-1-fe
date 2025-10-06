@@ -1,30 +1,30 @@
 export type MainMenuKey =
   | "intro"
   | "quiz"
-  | "present"
+  | "role"
   | "future"
   | "roadmap"
   | "copilot"
   | "demo"
   | "prompt_engg"
   | "ai_agents"
-  | "agents_framework"
+  | "ai_automation"
   | "mcp"
-  | "a2a";
+  | "outro";
 
 export type MainMenuItem = { key: MainMenuKey; label: string; href?: string };
 
 export const MAIN_MENU: MainMenuItem[] = [
-  { key: "intro", label: "Session Intro", href: "/about-session" },
+  { key: "intro", label: "Intro", href: "/about-session" },
   { key: "quiz", label: "Quiz", href: "/quiz" },
-  { key: "present", label: "Present State" },
-  { key: "future", label: "Possible future state" },
+  { key: "role", label: "Evolution of Software Engineering", href: "/present" },
+  { key: "future", label: "Future state of Software Engineering" },
   { key: "roadmap", label: "How to prepare for future?" },
-  { key: "prompt_engg", label: "Prompt Engineering" },
-  { key: "copilot", label: "Leveraging copilot" },
-  { key: "demo", label: "A demo of copilot" },
-  { key: "ai_agents", label: "AI Agents" },
-  { key: "agents_framework", label: "Agents Framework" },
-  { key: "mcp", label: "MCP" },
-  { key: "a2a", label: "A2A protocol" },
+  { key: "prompt_engg", label: "LLMs and Prompt Engineering" },
+  { key: "copilot", label: "Leveraging Coding Assistants" },
+  { key: "demo", label: "A Quick Demo of Copilot" },
+  { key: "ai_agents", label: "Intro to AI Agents & Framework" },
+  { key: "mcp", label: "MCP & A2A" },
+  { key: "ai_automation", label: "AI Automation using n8n" },
+  { key: "outro", label: "Outro" },
 ];
