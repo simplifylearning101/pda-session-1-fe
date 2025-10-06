@@ -7,7 +7,9 @@ export default function Home() {
     <div className="min-h-screen flex flex-col font-sans bg-gray-900 text-gray-100">
       {/* Header with Session Name, Github and Youtube buttons */}
   <header className="w-full flex flex-col sm:flex-row justify-between items-center p-4 bg-gray-900 border-b border-gray-800 gap-2 sticky top-0 z-50">
-        <span className="text-2xl font-extrabold text-blue-300 tracking-wide">Session on 'Preparing for future' - exclusively for PDA students</span>
+        <span className="text-2xl font-extrabold text-blue-300 tracking-wide">Preparing for future</span>
+        <span className="text-xl text-blue-300 tracking-wide">For PDA students</span>
+        
         <div className="flex gap-4">
           <a
             href="/me"
