@@ -15,7 +15,7 @@ export default function Home() {
             href="/me"
             className="bg-gray-800 text-gray-100 px-4 py-2 rounded-lg font-semibold shadow hover:bg-blue-900 transition-all duration-200"
           >
-            Instructor profile
+            Profile
           </a>
           <a
             href="https://github.com/simplifylearning101"

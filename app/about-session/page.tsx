@@ -9,11 +9,11 @@ export default function AboutSession() {
             href="/"
             className="mr-4 px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200"
           >
-            ← Main App
+            ← Back
           </a>
         </div>
         <div className="flex-1 flex justify-center">
-          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">About This Session</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">About Session</h1>
         </div>
         <div className="flex-1"></div>
       </div>
