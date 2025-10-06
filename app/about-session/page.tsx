@@ -17,21 +17,31 @@ export default function AboutSession() {
         </div>
         <div className="flex-1"></div>
       </div>
-      <div className="max-w-xl text-lg leading-relaxed bg-gray-800 p-6 rounded-xl shadow-lg">
+      <div className="text-lg leading-relaxed bg-gray-800 p-6 rounded-xl shadow-lg">
         <p>
-          Welcome to Applied LLM session, exclusively for PDA students! This session is designed to introduce you to the world of Applied LLMs, prompt engineering, agent frameworks, and hands-on development of AI-powered applications. You'll explore how large language models can be leveraged for interactive quizzes, and then build agents, explore agents frameworks.
+          "How to compete with AI" - a session on preparing ourselves for future of Software engineering. Exclusively for PDA students! 
+          <br />This session is designed to introduce you to the "possible" roadmap for your future role. 
         </p>
         <ul className="list-disc pl-6 mt-4">
-          <li>Session Overview & Objectives</li>
-          <li>Fun Quiz driven by AI</li>
-          <li>Prompt Engineering Techniques</li>
-          <li>Building Fullstack LLM Apps</li>
-          <li>Creating and Managing AI Agents</li>
-          <li>Understanding Agent Frameworks & MCP</li>
-          <li>Agent-to-Agent Protocols</li>
+          <li>Session Overview - 10mins</li>
+          <li>Fun Quiz - 5mins</li>
+          <li>Present state of affrairs in software engineering - 15mins</li>
+          <li>Possible near future (1-3 years)for software engineering - 30mins</li>
+        </ul>
+        <ul className="list-disc pl-6 mt-4">  
+          <li>How can we be better prepared for future - 15mins</li>
+          <li>Prompt Engineering and why is it important - 15mins</li>
+          <li>Leveraging copilot / AI assisted development - 15mins</li>
+          <li>A demo of copilot - 15mins</li>
+        </ul>
+        <ul className="list-disc pl-6 mt-4">   
+          <li>Introduction to AI Agents - 15mins</li>
+          <li>Understanding Agent Frameworks - 15mins</li>
+          <li>Model Context Protocol - 15mins</li>
+          <li>Agent-to-Agent Protocols - 15mins</li>
         </ul>
         <p className="mt-4">
-           A free 10 weeks course on same topic is also available <a href="https://github.com/simplifylearning101/LLM_beginner_course" target="_blank">here</a>
+          A free 10 weeks course on Applied LLM is also available <a href="https://github.com/simplifylearning101/LLM_beginner_course" target="_blank">here</a>
         </p>
       </div>
     </div>

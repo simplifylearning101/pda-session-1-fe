@@ -19,7 +19,7 @@ export default function AboutInstructor() {
       </div>
       <div className="max-w-xl text-lg leading-relaxed bg-gray-800 p-6 rounded-xl shadow-lg text-center">
         <p>
-          We are Simplify Learning, an edtech company dedicated to making AI and coding accessible for everyone.
+          We believe in simplifing learning
         </p>
         <p className="mt-2">
           Our mission is to empower learners with practical, hands-on courses in AI, LLMs, and modern software development.
