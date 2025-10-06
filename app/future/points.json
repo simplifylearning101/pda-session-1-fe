@@ -1,0 +1,9 @@
+{
+  "points": [
+    { "id": 1, "heading": "Widespread AI Integration in Development Tools", "description": "By 2026-2028, AI will be embedded in every stage of the software development lifecycle, from code generation and testing to deployment and maintenance, boosting productivity by automating up to 50% of routine tasks and enabling faster iterations in engineering workflows." },
+    { "id": 2, "heading": "Evolution of Developer Roles to AI Supervisors and Strategists", "description": "In 1-3 years, software engineers will shift from hands-on coding to overseeing AI agents, focusing on system architecture, complex problem-solving, and strategic decision-making, with new roles emerging that blend engineering with AI orchestration" },
+    { "id": 3, "heading": "Rise of Autonomous AI Agents for End-to-End Tasks", "description": "By 2027-2030, AI agents will handle full development workflows autonomously, such as resolving issues, building prototypes, and optimizing code, reducing human intervention in repetitive processes while requiring oversight for complex scenarios." },
+    { "id": 4, "heading": "Increased Emphasis on Ethical AI and Security in Engineering", "description": "Over the next 3-5 years, with AI's deeper integration, software engineering will prioritize ethical considerations, bias mitigation, and robust security protocols, as governance frameworks evolve to address risks like hallucinations and vulnerabilities." },
+    { "id": 5, "heading": "Demand for Hybrid Skills and Continuous Upskilling", "description": "By 2026-2030, 80% of engineers will need to upskill in AI, data science, and interdisciplinary areas, leading to more competitive job markets where proficiency in AI tools trumps traditional coding alone, fostering a talent pool of AI-enhanced professionals." }
+  ]
+}
