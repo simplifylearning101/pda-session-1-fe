@@ -38,13 +38,12 @@ export default function Home() {
 
       <div className="flex flex-1 items-center justify-center p-8">
   <div className="w-full max-w-4xl sticky top-20">
-          <h2 className="text-3xl font-bold mb-6 text-center text-gray-100">Main Menu</h2>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full">
             {MAIN_MENU.map(menu => (
               <a
                 key={menu.key}
                 href={menu.href ?? `/menu/${menu.key}`}
-                className="rounded-xl shadow-lg px-8 py-8 text-2xl font-semibold transition-all duration-200 border-2 border-gray-700 bg-gray-900 text-gray-200 hover:bg-gray-800 flex items-center justify-center text-center"
+                className="rounded-xl shadow-lg px-4 py-4 text-xl font-semibold transition-all duration-200 border-2 border-gray-700 bg-gray-900 text-gray-200 hover:bg-gray-800 flex items-center justify-center text-center"
               >
                 {menu.label}
               </a>
