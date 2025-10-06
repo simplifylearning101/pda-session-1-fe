@@ -24,7 +24,6 @@ export default function AboutSession() {
         </p>
         <ul className="list-disc pl-6 mt-4">
           <li>Session Overview - 10mins</li>
-          <li>Fun Quiz - 5mins</li>
           <li>Present state of affrairs in software engineering - 15mins</li>
           <li>Possible near future (1-3 years)for software engineering - 30mins</li>
         </ul>

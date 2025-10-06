@@ -16,7 +16,7 @@ export type MainMenuItem = { key: MainMenuKey; label: string; href?: string };
 
 export const MAIN_MENU: MainMenuItem[] = [
   { key: "intro", label: "Session Intro", href: "/about-session" },
-  { key: "quiz", label: "Fun Quiz", href: "/create-quiz" },
+  { key: "quiz", label: "Quiz", href: "/quiz" },
   { key: "present", label: "Present State" },
   { key: "future", label: "Possible future state" },
   { key: "roadmap", label: "How to prepare for future?" },

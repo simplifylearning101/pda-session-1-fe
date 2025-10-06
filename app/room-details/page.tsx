@@ -84,16 +84,10 @@ function RoomDetailsContent() {
       {/* Main content: Create Quiz Card and user list */}
       <div className="flex flex-col sm:flex-row flex-1 gap-6">
         <div className="w-full sm:flex-1 flex items-center justify-center mb-6 sm:mb-0">
-          {/* Large Create Quiz Card with darker grey background */}
           <div className="bg-gray-800 shadow-2xl rounded-2xl p-6 sm:p-10 flex flex-col items-center justify-center w-full max-w-xl min-h-[200px] sm:min-h-[300px] border-2 border-blue-400">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-blue-300">Create a Quiz</h2>
-            <p className="mb-4 sm:mb-6 text-gray-300 text-center text-base sm:text-lg">Start a new quiz for this room. You can add questions and customize your quiz.</p>
-            <a
-              href={`/create-quiz?roomKey=${roomKey}`}
-              className="bg-blue-600 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold text-base sm:text-lg hover:bg-blue-700 transition-all duration-200 text-center"
-            >
-              Create Quiz
-            </a>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-blue-300">Room Activities</h2>
+            <p className="mb-4 sm:mb-6 text-gray-300 text-center text-base sm:text-lg">This area can be used for room-specific activities. The quiz flow has been consolidated into a single quiz page.</p>
+            <p className="text-sm text-gray-400">To run a quiz, open the dedicated quiz page from the main menu.</p>
           </div>
         </div>
         <aside className="w-full sm:w-72 border-t sm:border-t-0 sm:border-l pt-4 sm:pl-6 flex flex-col">
