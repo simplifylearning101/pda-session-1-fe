@@ -1,0 +1,68 @@
+{
+  "points": [
+    { 
+        "id": 1, 
+        "direction": "Become an AI Power User", 
+        "skills": "AI Literacy & Prompt Engineering",
+        "example": "Learn to use tools like GitHub Copilot, Gemini, or Claude to generate, debug, and refactor code. Practice writing clear, detailed prompts to architect system components or create test suites."
+  
+    },
+    { 
+        "id": 2, 
+        "direction": "Master AI and Machine Learning Fundamentals", 
+        "skills": "AI/ML",
+        "example": "As AI becomes integral to software development, understanding core concepts like supervised/unsupervised learning, neural networks, and algorithms will allow you to build and integrate intelligent systems."
+  
+    },
+    { 
+        "id": 3, 
+        "direction": "Build 'Full-Stack AI' Projects", 
+        "skills": "AI Integration (MLOps)",
+        "example": "Build a project that integrates an LLM or ML model (e.g., a recommendation engine, a chatbot, or an image classifier) into a full-stack application (frontend, backend, database)."
+  
+    },
+    { 
+        "id": 4, 
+        "direction": "Master the Cloud and Containers", 
+        "skills": "Cloud-Native Development",
+        "example": "Get certified or demonstrate proficiency in one major cloud provider (AWS, Azure, or GCP). Master Docker and basic Kubernetes for deployment and orchestration."
+  
+    },
+    { 
+        "id": 5, 
+        "direction": "Make Security Your Baseline", 
+        "skills": "Secure Coding & SecDevOps",
+        "example": "Learn the OWASP Top 10 and practice threat modeling. Use tools for Static Application Security Testing (SAST) and perform basic security reviews on your code. As AI introduces new vulnerabilities, knowing secure coding, encryption, and threat detection will protect systems from breaches. Study through resources like Cybrary or TryHackMe challenges, implement security in your projects (e.g., adding OAuth to a web app), and stay updated via blogs like Krebs on Security."
+  
+    },
+    { 
+        "id": 6, 
+        "direction": "Embrace 'Low-Code' Extensions", 
+        "skills": "API Design and Integration",
+        "example": "Learn to extend and integrate with low-code/no-code platforms (e.g., n8n, ServiceNow, Retool). Focus on designing robust, well-documented APIs that can connect systems."
+  
+    },
+    { 
+        "id": 7, 
+        "direction": "Strengthen Interpersonal Impact", 
+        "skills": "Business Acumen & Communication",
+        "example": "Practice explaining complex technical concepts to non-technical audiences (e.g., Product Managers or clients). Collaboration, problem-solving, and explaining complex ideas will differentiate you in team-based, AI-augmented environments."
+  
+    },
+    { 
+        "id": 8, 
+        "direction": "Acquire Domain-Specific Knowledge", 
+        "skills": "SME knowledge",
+        "example": "Specializing in areas like healthcare, finance, or sustainability will enable you to apply AI contextually for impactful solutions. Choose a domain of interest, read industry reports (e.g., via McKinsey), and build relevant projects like an AI diagnostic tool for medical data."
+  
+    },
+    { 
+        "id": 9, 
+        "direction": "Embrace Continuous Learning and Ethical AI Practices", 
+        "skills": "Learning new stuff",
+        "example": "The field evolves rapidly, so commit to lifelong upskilling while considering bias, privacy, and sustainability in AI development. Set up a routine with newsletters like Towards Data Science, attend conferences, and audit your projects for ethical issues using frameworks from Google's Responsible AI."
+  
+    }          
+
+  ]
+}
