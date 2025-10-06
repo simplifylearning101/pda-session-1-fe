@@ -20,7 +20,7 @@ export default function PresentPage() {
           <a href="/" className="mr-4 px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200">← Back</a>
         </div>
         <div className="flex-1 flex justify-center">
-          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">Present State of Software Engineering</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">AI in Software Engineering</h1>
         </div>
         <div className="flex-1"></div>
       </div>
