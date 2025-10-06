@@ -34,9 +34,7 @@ export default function FuturePage() {
               {idx < revealedCount ? (
                 <>
                   <h3 className="font-semibold text-lg text-blue-200">{p.heading}</h3>
-                  <div className="pointer-events-none absolute left-1/2 transform -translate-x-1/2 -translate-y-full mb-2 w-64 p-3 rounded bg-gray-800 text-gray-200 shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-150 z-20">
-                    <div className="text-sm">{p.description}</div>
-                  </div>
+                  <div className="text-sm">{p.description}</div>
                 </>
               ) : (
                 <div className="text-gray-400 italic">Hidden</div>
