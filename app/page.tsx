@@ -5,9 +5,9 @@ import { MAIN_MENU } from "./menuData";
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col font-sans bg-gray-900 text-gray-100">
-      {/* Header with Session Name, Github and Youtube buttons */}
-  <header className="w-full flex flex-col sm:flex-row justify-between items-center p-4 bg-gray-900 border-b border-gray-800 gap-2 sticky top-0 z-50">
-        <span className="text-2xl font-extrabold text-blue-300 tracking-wide">Preparing for future</span>
+
+      <header className="w-full flex flex-col sm:flex-row justify-between items-center p-4 bg-gray-900 border-b border-gray-800 gap-2 sticky top-0 z-50">
+        <span className="text-2xl font-extrabold text-blue-300 tracking-wide">Leveraging AI</span>
         <span className="text-xl text-blue-300 tracking-wide">For PDA students</span>
         
         <div className="flex gap-4">
@@ -37,7 +37,7 @@ export default function Home() {
       </header>
 
       <div className="flex flex-1 items-center justify-center p-8">
-  <div className="w-full max-w-4xl sticky top-20">
+        <div className="w-full max-w-4xl sticky top-20">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full">
             {MAIN_MENU.map(menu => (
               <a

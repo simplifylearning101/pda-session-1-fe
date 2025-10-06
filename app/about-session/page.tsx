@@ -19,7 +19,7 @@ export default function AboutSession() {
       </div>
       <div className="text-lg leading-relaxed bg-gray-800 p-6 rounded-xl shadow-lg">
         <p>
-          "How to compete with AI" - a session on preparing ourselves for future of Software engineering. Exclusively for PDA students! 
+          "How to leverage AI" - a session on preparing ourselves for future of Software engineering - exclusively for PDA students! 
           <br />This session is designed to introduce you to the "possible" roadmap for your future role. 
         </p>
         <ul className="list-disc pl-6 mt-4">

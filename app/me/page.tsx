@@ -9,7 +9,7 @@ export default function AboutInstructor() {
             href="/"
             className="mr-4 px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold shadow hover:bg-blue-800 transition-all duration-200"
           >
-            ← Main App
+            ← Back
           </a>
         </div>
         <div className="flex-1 flex justify-center">
