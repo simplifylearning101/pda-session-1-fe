@@ -20,7 +20,7 @@ export const MAIN_MENU: MainMenuItem[] = [
   { key: "role", label: "Evolution of Software Engineering", href: "/present" },
   { key: "future", label: "Future state of Software Engineering", href: "/future" },
   { key: "roadmap", label: "How to prepare for future?", href: "/prepare" },
-  { key: "prompt_engg", label: "LLMs and Prompt Engineering" },
+  { key: "prompt_engg", label: "LLMs and Prompt Engineering", href: "/prompts" },
   { key: "copilot", label: "Leveraging Coding Assistants" },
   { key: "demo", label: "A Quick Demo of Cursor" },
   { key: "ai_agents", label: "Intro to AI Agents & Framework" },
