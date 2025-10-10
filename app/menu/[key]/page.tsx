@@ -18,14 +18,14 @@ export default function MenuPage() {
           </a>
         </div>
         <div className="flex-1 flex justify-center">
-          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">Under development</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold text-blue-300">External Example </h1>
         </div>
         <div className="flex-1"></div>
       </div>
 
       <div className="w-full max-w-xl">
         <div className="bg-gray-800 p-6 rounded-xl shadow text-lg">
-          This space is being engineered. Stay tuned. It will be ready before session.  
+   
         </div>
       </div>
     </div>

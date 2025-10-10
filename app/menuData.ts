@@ -22,7 +22,7 @@ export const MAIN_MENU: MainMenuItem[] = [
   { key: "roadmap", label: "How to prepare for future?", href: "/prepare" },
   { key: "prompt_engg", label: "LLMs and Prompt Engineering", href: "/prompts" },
   { key: "copilot", label: "Leveraging Coding Assistants" },
-  { key: "demo", label: "A Quick Demo of Cursor" },
+  { key: "demo", label: "Demo of Cursor", href: "/demo" },
   { key: "ai_agents", label: "Intro to AI Agents & Framework" },
   { key: "mcp", label: "MCP & A2A" },
   { key: "ai_automation", label: "AI Automation using n8n" },

@@ -1,0 +1,7 @@
+{
+  "points": [
+    { "id": 1, "heading": "Simple Weather App", "prompt": "Create a simple weather app using HTML5, CSS3, and JavaScript that allows users to search for weather information for a specific city. The app should display the current weather conditions, temperature, and a 5-day forecast." },
+    { "id": 2, "heading": "A 2D Game", "prompt": "Create a simple 2D game called tic tac toe using HTML5, CSS3, and JavaScript. The game should be a simple with 2 players" }
+
+  ]
+}
