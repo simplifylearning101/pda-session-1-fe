@@ -1,0 +1,9 @@
+{
+  "points": [
+    { "id": 1, "heading": "AI Agents & Framework", "description": "" },
+    { "id": 2, "heading": "Retrieval Augmented Generation (RAG)", "description": "" },
+    { "id": 3, "heading": "Model Context Protocol", "description": "" },
+    { "id": 4, "heading": "Agents to Agents Communication", "description": "" },
+    { "id": 5, "heading": "AI Automation using n8n", "description": "" }
+  ]
+}

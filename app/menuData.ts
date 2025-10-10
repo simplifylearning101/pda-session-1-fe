@@ -10,7 +10,7 @@ export type MainMenuKey =
   | "ai_agents"
   | "ai_automation"
   | "mcp"
-  | "outro";
+  | "next_steps";
 
 export type MainMenuItem = { key: MainMenuKey; label: string; href?: string };
 
@@ -23,8 +23,8 @@ export const MAIN_MENU: MainMenuItem[] = [
   { key: "prompt_engg", label: "LLMs and Prompt Engineering", href: "/prompts" },
   { key: "copilot", label: "Leveraging Coding Assistants" },
   { key: "demo", label: "Demo of Cursor", href: "/demo" },
-  { key: "ai_agents", label: "Intro to AI Agents & Framework" },
-  { key: "mcp", label: "MCP & A2A" },
-  { key: "ai_automation", label: "AI Automation using n8n" },
-  { key: "outro", label: "Outro" },
+  // { key: "ai_agents", label: "Intro to AI Agents & Framework" },
+  // { key: "mcp", label: "MCP & A2A" },
+  // { key: "ai_automation", label: "AI Automation using n8n" },
+  { key: "next_steps", label: "Next Steps", href: "/next-steps" },
 ];

@@ -42,12 +42,12 @@
     },
     {
       "id": 5,
-      "text": "In supervised learning, models are trained using:",
+      "text": "Which IDE is best for AI assisted development?",
       "options": [
-        "Labeled examples",
-        "Unlabeled data only",
-        "No data",
-        "Random noise"
+        "Cursor",
+        "VS Code",
+        "IntelliJ",
+        "Sublime"
       ]
     }
   ]

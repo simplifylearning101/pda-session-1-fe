@@ -19,8 +19,8 @@ export default function AboutSession() {
       </div>
       <div className="text-lg leading-relaxed bg-gray-800 p-6 rounded-xl shadow-lg">
         <p>
-          "How to leverage AI" - a session on preparing ourselves for future of Software engineering - exclusively for PDA students! 
-          <br />This session is designed to introduce you to the "possible" roadmap for your future role. 
+          "Leverage AI" - a session on preparing ourselves for future of Software engineering - exclusively for PDA students! 
+          <br />This session is designed to introduce you to the "possible" roadmap for your future role and some hands on experience.
         </p>
         <ul className="list-disc pl-6 mt-4">
           <li>Session Overview</li>
@@ -32,16 +32,16 @@ export default function AboutSession() {
           <li>How can we be better prepared for future</li>
           <li>LLMs and Prompt Engineering</li>
           <li>Leveraging copilot / AI assisted development</li>
-          <li>Build a full stack app using copilot</li>
+          <li>Build a full stack app using cursor</li>
         </ul>
         <ul className="list-disc pl-6 mt-4">   
-          <li>Introduction to AI Agents & Agentic framework</li>
-          <li>Model Context Protocol</li>
-          <li>Agent-to-Agent Protocols</li>
-          <li>AI Automation using n8n</li>
+          <li>Next Session: Introduction to AI Agents & Agentic framework</li>
+          <li>Next Session: Model Context Protocol</li>
+          <li>Next Session: Agent-to-Agent Protocols</li>
+          <li>Next Session: AI Automation using n8n</li>
         </ul>
         <p className="mt-4">
-          A free 10 weeks course on Applied LLM is also available <a href="https://github.com/simplifylearning101/LLM_beginner_course" target="_blank">here</a>
+          Github Repo: <a href="https://github.com/simplifylearning101/LLM_beginner_course" target="_blank">here</a>
         </p>
       </div>
     </div>
