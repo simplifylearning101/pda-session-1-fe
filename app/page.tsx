@@ -11,28 +11,28 @@ export default function Home() {
         <span className="text-xl text-blue-300 tracking-wide">For PDA students</span>
         
         <div className="flex gap-4">
-          <a
+          {/* <a
             href="/me"
             className="bg-gray-800 text-gray-100 px-4 py-2 rounded-lg font-semibold shadow hover:bg-blue-900 transition-all duration-200"
           >
             Profile
-          </a>
+          </a> */}
           <a
             href="https://github.com/simplifylearning101"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-gray-800 text-gray-100 px-4 py-2 rounded-lg font-semibold shadow hover:bg-blue-900 transition-all duration-200"
+            className="bg-gray-200 text-gray-100 px-4 py-2 rounded-lg font-semibold shadow hover:bg-gray-300 transition-all duration-200"
           >
-            Github
+            <img src="https://github.githubassets.com/favicons/favicon.svg" alt="GitHub" width="20" height="20" />
           </a>
-          <a
+          {/* <a
             href="https://youtu.be/8IU-1ijRIiw?feature=shared"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 text-gray-100 px-4 py-2 rounded-lg font-semibold shadow hover:bg-blue-900 transition-all duration-200"
           >
             Youtube
-          </a>
+          </a> */}
         </div>
       </header>
 
